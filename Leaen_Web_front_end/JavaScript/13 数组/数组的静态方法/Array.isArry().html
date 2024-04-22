@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 用来判断是否为数组，返回的是布尔值 -->
+    <!-- 弥补了typeof的不足 -->
+    <script>
+        var n = 23;
+        var arr = [123, 2321, 4535, 6758789, 890, 89, 324,];
+
+        //不能用typeof判断数组；
+        console.log(typeof arr);
+        console.log(typeof n);
+        console.log(Array.isArray(arr));
+        console.log(Array.isArray(n));
+
+
+    </script>
+
+</body>
+
+</html>

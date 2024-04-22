@@ -12,7 +12,6 @@ public class 不同数据类型数字相加 {
 
         //隐式转换
 
-
         int a = 1; //(自动类型提升成double了)
         double b = 1.1;
         double c = a+b; //c是double

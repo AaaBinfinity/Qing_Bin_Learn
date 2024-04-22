@@ -9,7 +9,9 @@
 la_money = 900
 # 输出余额
 print("钱包还有：",la_money,"元")
+
 # 变量里的值是可以进行改变赋值的
+
 # 贷款20000元
 la_money = la_money + 20000
 # print(la_money)

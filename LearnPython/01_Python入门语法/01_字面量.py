@@ -14,4 +14,4 @@ print(False)
 "徐静"    #字符串  用引号括起来的都是字符串
 '5'    #字符串
 True    #布尔值
-False    #布尔值：只有True和False两个值，默认值是True
+False    #布尔值：只有True和False两个值，默认值是True。。

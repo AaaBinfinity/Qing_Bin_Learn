@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5160151",
+      "name": "棒棒糖",
+      "font_class": "huabanfuben",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    }
+  ]
+}

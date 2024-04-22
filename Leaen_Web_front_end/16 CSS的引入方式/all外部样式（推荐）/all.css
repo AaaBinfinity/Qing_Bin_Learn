@@ -1,0 +1,10 @@
+/*可以直接在.css文件中改变所有页面的显示效果*/
+p {
+    color: blue;
+    font-size: 90px;
+}
+
+a {
+    color: rgb(0, 255, 106);
+    font-size: 50px;
+}

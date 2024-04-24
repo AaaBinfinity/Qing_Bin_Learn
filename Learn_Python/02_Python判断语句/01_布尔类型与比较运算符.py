@@ -32,9 +32,8 @@ print(f"10 > 9的结果是：{result}，result的类型为{type(result)}")  # 10
 # "=="是一个比较运算符，判断左右是否相等
 name_result = "QingQing" == "Binfinity"
 print(
-    "\"QingQing\"和\"Binfinity\"两个字符串是否相同的比较结果是"   # 这里的“+”(拼接字符串)可以省略
+    "\"QingQing\"和\"Binfinity\"两个字符串是否相同的比较结果是"  # 这里的“+”(拼接字符串)可以省略
     f"{name_result}，类型是{type(name_result)}")  # False，类型是<class 'bool'>
-
 
 """
 

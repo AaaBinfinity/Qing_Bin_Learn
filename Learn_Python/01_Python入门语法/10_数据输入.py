@@ -18,10 +18,12 @@ print("我知道了，你是%s" % name)
 
 # 无论写入的是什么样的数据，input语句通通都把它当做字符串来看待
 num = input("李绮卿的学号是什么？")
-print("李绮卿学号的类型是：", type(num))
+print(f"id是：{num}")
+print("李绮卿学号的类型是：", type(num))  # 接收到的是<class 'str'>
 
 # 数据类型转换
 num = input("李绮卿学号的类型是")
+# 将接收到的字符串转化成整型
 num = int(num)
 print("李绮卿学号的类型是：", type(num))
 

@@ -2,13 +2,12 @@
 
 print(type(False))
 
-a = 1212    #int
-b = 1.01    #float
-c = True    #bool
-d = '36'    #str
+a = 1212  # int
+b = 1.01  # float
+c = True  # bool
+d = '36'  # str
 
 e = type(a)
-
 
 print(type(a))
 print(e)

@@ -2,7 +2,7 @@ name = "BinfinityWorking"
 set = 2023
 year = 1.5
 price = 18.99
-message = "公司名称：%s，成立于%d年，已经有%d年的历史了，目前股价为：%f"%(name, set, year, price)
+message = "公司名称：%s，成立于%d年，已经有%d年的历史了，目前股价为：%f" % (name, set, year, price)
 print(message)
 
 # 以上代码，‘price’定义的18.99，输出时变成了18.990000

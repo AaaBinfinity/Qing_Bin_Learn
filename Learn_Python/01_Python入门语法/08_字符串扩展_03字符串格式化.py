@@ -7,7 +7,6 @@ name = "李绮卿"
 message = "大数据2301 %s" % name
 print(message)
 
-
 """
 % 表示：我要站位
 s 表示：将变量变成字符串放入占位的地方
@@ -31,7 +30,7 @@ print(message)
 
 name = "BinfinityWorking"
 set = 2023
-year = 1.5      # 注意，这里定义了一个浮点类型，但在拼接时使用了“%d”进行占位，所以被强制转化为整数类型，损失了精度
+year = 1.5  # 注意，这里定义了一个浮点类型，但在拼接时使用了“%d”进行占位，所以被强制转化为整数类型，损失了精度
 price = 18.99
-message = "公司名称：%s，成立于%d年，已经有%d年的历史了，目前股价为：%f"%(name, set, year, price)
+message = "公司名称：%s，成立于%d年，已经有%d年的历史了，目前股价为：%f" % (name, set, year, price)
 print(message)

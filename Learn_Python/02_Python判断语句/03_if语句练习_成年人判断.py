@@ -6,4 +6,4 @@ age = int(input("请输入您的年龄："))
 if age >= 18:
     print("您已成年，请购买成人票")
 # 祝福程序
-print("Have A Goog Time!")
+print("Have A Good Time!")

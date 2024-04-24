@@ -16,6 +16,10 @@ print(False)
 True
 False
 
+"""
+注意！！Python程序严格考究字符的缩进和大小写
+"""
+
 '''
 
 pycharm快捷键：

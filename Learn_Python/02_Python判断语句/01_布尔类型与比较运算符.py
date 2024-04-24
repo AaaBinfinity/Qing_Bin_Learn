@@ -20,3 +20,10 @@ Python逻辑判断：
     * True      表示真     数字记为1
     * False     表示假     数字记为0
 '''
+
+# 定义变量用来储存布尔数据类型：变量名称 = 布尔类型字面量
+Love = True
+print(type(Love))       # <class 'bool'>
+
+result = 10 > 9
+print(f"10 > 9的结果是：{result}，result的类型为{type(result)}")

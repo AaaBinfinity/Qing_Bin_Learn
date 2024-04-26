@@ -39,3 +39,6 @@ else:       # 注意缩进，else应该是和 if 同级的
     print("您未成年，请购买儿童票")  # 条件不成立时执行
 # 祝福程序
 print("Have A Good Time!")
+
+
+print("q")

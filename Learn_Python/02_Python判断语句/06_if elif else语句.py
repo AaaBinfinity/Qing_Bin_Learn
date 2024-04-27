@@ -35,9 +35,9 @@ height = int(input("请输入你的身高："))
 vip_level = int(input("请输入你的vip等级（1~5）:"))
 day = float(input("请输入今天日期："))
 if height < 120:
-    print("免费游玩")
+    print("小孩哥，免费游玩")
 elif vip_level > 3:
-    print("免费游玩")
+    print("富哥，免费游玩")
 elif day == 11.11:
     print("ok玩吧~")
 else:

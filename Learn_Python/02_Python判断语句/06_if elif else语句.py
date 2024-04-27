@@ -54,7 +54,8 @@ elif int(input("请输入你的vip等级（1~5）:")) > 3:
     print("富哥，免费游玩")
 elif float(input("请输入今天日期：")) == 11.11:
     print("ok玩吧~")
-print("滚去交钱")
+else:
+    print("滚去交钱")
 
 # 一般pro
 print("欢迎来到动物园")

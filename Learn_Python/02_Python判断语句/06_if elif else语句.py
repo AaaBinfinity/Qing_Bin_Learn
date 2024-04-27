@@ -57,4 +57,8 @@ else:
     if vip_level > 3:
         print("免费游玩")
     else:
-        print("滚去交钱")
+        day = float(input("请输入今天日期："))
+        if day == 11.11:
+            print("欧克单身狗自己去玩叭~")
+        else:
+            print("呵呵")

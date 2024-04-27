@@ -33,6 +33,7 @@ else:
 print("欢迎来到动物园")
 height = int(input("请输入你的身高："))
 vip_level = int(input("请输入你的vip等级（1~5）:"))
+day = int(input("请输入今天日期："))
 if height < 120:
     print("免费游玩")
 elif vip_level > 3:

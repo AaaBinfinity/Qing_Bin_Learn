@@ -45,6 +45,17 @@ else:
 # print("代码执行完成")
 
 
+# clean
+print("欢迎来到动物园")
+
+if int(input("请输入你的身高：")) < 120:
+    print("小孩哥，免费游玩")
+elif int(input("请输入你的vip等级（1~5）:")) > 3:
+    print("富哥，免费游玩")
+elif float(input("请输入今天日期：")) == 11.11:
+    print("ok玩吧~")
+print("滚去交钱")
+
 # pro
 print("欢迎来到动物园")
 

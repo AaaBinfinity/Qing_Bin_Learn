@@ -56,7 +56,7 @@ elif float(input("请输入今天日期：")) == 11.11:
     print("ok玩吧~")
 print("滚去交钱")
 
-# pro
+# 一般pro
 print("欢迎来到动物园")
 
 height = int(input("请输入你的身高："))

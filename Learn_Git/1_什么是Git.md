@@ -44,7 +44,7 @@ Git是一个免费、开源的**分布式版本控制系统**
 
 ### 2.分布式
 
-![image-20240501222434214](https://github.com/AaaBinfinity/Qing_Bin_Learn/tree/main/Learn_Git/img/image-20240501222434214.png)
+![image-20240501222434214](https://github.com/AaaBinfinity/Qing_Bin_Learn/blob/main/Learn_Git/img/image-20240501221027145.png)
 
 每个人的电脑上都有一个完整的版本库，可以在本地进行修改（所以不需要考虑网络问题）。
 

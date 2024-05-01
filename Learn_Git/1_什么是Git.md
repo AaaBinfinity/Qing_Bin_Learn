@@ -30,7 +30,7 @@ Git是一个免费、开源的**分布式版本控制系统**
 
 ## 目前世界上的版本控制系统分类
 
-![image-20240501221027145](B:\aaaaaalearn\Qing_Bin_Learn\Learn_Git\img\image-20240501221027145.png)
+![image-20240501221027145](Learn_Git/img/image-20240501221027145.png)
 
 ### 1.集中式
 

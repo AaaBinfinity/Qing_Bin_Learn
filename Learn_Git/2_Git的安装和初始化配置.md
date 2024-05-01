@@ -2,10 +2,10 @@
 
 ## 一、安装
 
-1. 去**[git官网](https://git-scm.com/)**进行下载并安装
+1. 去[git官网](https://git-scm.com/)进行下载并安装
 2. 验证安装：在终端输入`git -v`命令
 
-![image-20240501233631668](https://github.com/AaaBinfinity/Qing_Bin_Learn/blob/47d8d90d1f94e6421b892237bffedecd2383bb38/Learn_Git/img/2/image-20240501233631668.png)
+
 
 看到版本信息说明安装成功
 

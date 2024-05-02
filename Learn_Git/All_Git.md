@@ -175,13 +175,13 @@ git tag <tag-name>
 git merge --no-ff -m "message" <branch-name>
 ```
 
-<img src="B:\aaaaaalearn\Qing_Bin_Learn\Learn_Git\Gitimg\image-20240502105101489.png" alt="image-20240502105101489" style="zoom:67%;" />
+<img src="https://github.com/AaaBinfinity/Qing_Bin_Learn/blob/637b94f8f2e5f1a977a223149aeb1dddcbbe7fdb/Learn_Git/Gitimg/image-20240502105101489.png" alt="image-20240502105101489" style="zoom:67%;" />
 
 ```shell
 git merge --ff -m "message" <branch-name>
 ```
 
-<img src="B:\aaaaaalearn\Qing_Bin_Learn\Learn_Git\Gitimg\image-20240502105432034.png" alt="image-20240502105432034" style="zoom:67%;" />
+<img src="https://github.com/AaaBinfinity/Qing_Bin_Learn/blob/637b94f8f2e5f1a977a223149aeb1dddcbbe7fdb/Learn_Git/Gitimg/image-20240502105432034.png" alt="image-20240502105432034" style="zoom:67%;" />
 
 合并&squash所有提交到一个提交
 
@@ -204,7 +204,7 @@ git checkout <dev>
 git rebase <main>
 ```
 
-<img src="B:\aaaaaalearn\Qing_Bin_Learn\Learn_Git\Gitimg\image-20240502105627014.png" alt="image-20240502105627014" style="zoom:67%;" />
+<img src="https://github.com/AaaBinfinity/Qing_Bin_Learn/blob/637b94f8f2e5f1a977a223149aeb1dddcbbe7fdb/Learn_Git/Gitimg/image-20240502105627014.png" alt="image-20240502105627014" style="zoom:67%;" />
 
 ## 撤销
 

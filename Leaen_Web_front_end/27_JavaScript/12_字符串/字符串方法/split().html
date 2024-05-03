@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        var s = " it|is|an|apple";
+        // 分割成数组
+        var r = s.split("|");    //       ['it','is','an','apple']  ===  数组
+        var r2 = s.split("");    //     得到字符串的每一个字符
+        var r3 = s.split();  //     得到完整字符串的数组
+        //第二个参数是获得的字符串的成员数
+        var r4 = s.split("|", 2);
+        console.log(r);
+        document.write(r);
+        console.log(r2);
+        document.write(r2);
+        document.write(r);
+        console.log(r3);
+        document.write(r3);
+        console.log(r4);
+        document.write(r4);
+
+
+
+    </script>
+
+</body>
+
+</html>

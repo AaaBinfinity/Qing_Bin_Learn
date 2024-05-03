@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 添加动画 */
+        @keyframes Binfinity {
+            /* 在下面的大括号里面添加样式 */
+
+            0% {
+                width: 900px;
+                height: 600px;
+                background-color: red;
+            }
+
+            50% {width: 2060px;
+                height: 1000px;
+                border-radius: 100%;
+                background-color: aqua;
+            }
+
+            75% {width: 200px;
+                height: 1000px;
+                border-radius: 20px;
+                background-color: black;
+            }
+
+            100% {
+                background-color: green;
+            } 
+
+        }
+        .try{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+       
+            height: 300px;
+            width: 300px;
+            /* 执行动画 */
+            /* animation : name duration timing - function delay teration - count direction ; */
+            /* 值描述 */
+            /* name                                 设置动画的名称 */
+            /* duration                             设置动画的持续时间 */
+            /* timing - function                    设置动画效果的速率 */
+            /* delay                                设置动画的开始时间（ */
+            /* iteration - count                    设置动画循环的次数， infinite 为无限次数的循环 */
+            /* direction                            设置动画播放的方向 */
+            /* animation - play - state             控制动画的播放状态： running 代表播放，而 paused 代表停止播放 */
+            animation: 
+            /* 动画名称 */
+            Binfinity 
+            /* 持续时间 */
+            0.01ms 
+            /* 设置动画效果的速率 */
+            /* timing - function 值描述
+            ease                     逐渐变慢（默认）
+            linear                   匀速
+            ease - in                加速    
+            ease - out               减速     
+            ease - in - out          先加速后减速 */                                
+            linear 
+            /*  设置动画的开始时间 */
+            0s
+            /*  设置动画循环的次数 */
+            infinite
+            /* 设置动画播放的方向  */
+           normal
+           /* 执行动画的方式 */
+           ;
+        }
+        /* 鼠标画上去暂停 */
+
+        .try:hover{
+            animation-play-state:paused;
+        }
+
+        /* 鼠标画上去变色 */
+        .go:hover{
+            background-color: darkorange;
+        }
+        .go{
+            background-color: rgb(241, 19, 156);
+            height: 300px;
+            width: 300px
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="try">
+    <p>试试把鼠标放到这里</p>
+    
+</div>
+<div class="go"></div>
+<video src="D:\Huawei Share\Screenshot\20231025_223947.mp4"></video>
+</body>
+
+</html>

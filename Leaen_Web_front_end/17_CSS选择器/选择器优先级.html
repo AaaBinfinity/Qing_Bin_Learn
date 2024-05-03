@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            color: blue;
+        }
+
+        .text {
+            color: aqua;
+        }
+
+        #desc {
+            color: black;
+        }
+
+        /*按照代码执行顺序（从上到下）执行，100px把10px覆盖掉了，所以100px生效。*/
+
+        .ww {
+            font-size: 10px;
+        }
+
+        .ee {
+            font-size: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3>全局选择器:*</h3>
+    <h3>元素选择器:元素名称</h3>
+    <h3>类选择器：class属性名（.）</h3>
+    <h3>ID选择器：id属性名（#）</h3>
+    <h3 style="color: red;">内联选择器</h3>
+    <h3>CSS中，权重用数字衡量
+        元素选择器的权重为：1<br>
+        class选择器的权重为：10<br>
+        id选择器的权重为：100<br>
+        内联样式的权重为：1000</h3>
+    <h2>优先级从高到低：行内样式>ID选择器>类选择器>元素选择器</h2>
+    <!--因为行内样式的权重最高，所以行内样式生效。-->
+    <p class="text" id="desc" style="color: green;">段落</p>
+    <p class="ww ee">遥遥领先</p>
+
+</body>
+
+</html>

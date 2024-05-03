@@ -3,8 +3,6 @@
 ------
 ------
 
-
-
 ## 初始化
 
 初始化设置用户名和邮箱
@@ -183,13 +181,13 @@ git merge --ff -m "message" <branch-name>
 
 <img src="https://github.com/AaaBinfinity/Qing_Bin_Learn/blob/637b94f8f2e5f1a977a223149aeb1dddcbbe7fdb/Learn_Git/Gitimg/image-20240502105432034.png" alt="image-20240502105432034" style="zoom:67%;" />
 
-合并&squash所有提交到一个提交
+合并`&squash`所有提交到一个提交
 
 ```shell
 git merge --squash <branch-name>
 ```
 
-rebase不会产生新的提交，而是把当前分支的每一个提交都"复制"到目标分支上，然后再把当前分支指向目标分支，而merge会产生一个新的提交，这个提交有两个分支的所有修改。
+`rebase`不会产生新的提交，而是把当前分支的每一个提交都"复制"到目标分支上，然后再把当前分支指向目标分支，而`merge`会产生一个新的提交，这个提交有两个分支的所有修改。
 
 ------
 

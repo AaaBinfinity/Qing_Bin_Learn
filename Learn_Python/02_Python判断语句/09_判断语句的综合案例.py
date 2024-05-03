@@ -8,6 +8,8 @@
 3.每次猜不中，会提示大了或小了
 """
 
+print("Hi Player~")
+
 import random
 num = random.randint(1, 10)
 print("让我们一起猜数字吧~")

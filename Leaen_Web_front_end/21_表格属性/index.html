@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 三个值 分辨是边框大小、边框样式、边框颜色 */
+        .bod,
+        td {
+            border: 3px solid blue;
+        }
+
+        /* 此时我们发现只有最外层有边框，因为只在table上添加了CSS，如果想让单元格也有边框，在td上加CSS,显示双边框 */
+
+        /*折叠边框，显示单边框 */
+        table {
+            border-collapse: collapse;
+            /* 调整大小 */
+            height: 300px;
+            width: 500px;
+            /* 表格颜色 */
+            background-color: beige;
+            
+            
+        }
+        
+        td {
+            /* 字体对齐，默认左中，下面设置成居中，表格中的文字对齐一般写在<td>上*/
+                text-align: center;
+                /* 表格填充 内边距*/
+                padding: 200px;
+                /* 表格字体颜色 */
+                color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table class="bod">
+        <tr>
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+        <tr>
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+        <tr>
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

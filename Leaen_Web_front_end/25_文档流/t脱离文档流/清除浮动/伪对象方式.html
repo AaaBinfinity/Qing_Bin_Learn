@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* 在父级元素里添加样式 */
+        /* 叫伪对象形式 */
+        .www::after {
+            content: "";
+           display: block;
+            clear: both;   
+             /* 但是里面的小盒子还有问题，所以还要采用子元素添加clear属性 */
+
+        }
+
+        .www {
+            width: 500px;
+            background-color: aqua;
+
+        }
+
+
+        .qqq {
+            width: 100px;
+            height: 100px;
+            background: red;
+            margin: 3px;
+            float: left;
+
+        }
+
+        .rrr,
+        .eee {
+            margin: 10px;
+        }
+
+
+        .eee {
+
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+        }
+
+        .rrr {
+
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="www">
+        <div class="qqq"></div>
+        <div class="qqq"></div>
+        <div class="qqq"></div>
+        <div class="rrr"></div>
+    </div>
+    <div class="eee"></div>
+
+</body>
+
+</html>

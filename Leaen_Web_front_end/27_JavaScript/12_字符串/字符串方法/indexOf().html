@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        var hello = "hello world";
+        //判断是有没有“e”这个词汇；
+        //匹配到了返回第一个位置，没匹配到返回-1；
+        console.log(hello.indexOf("e"));
+        console.log(hello.indexOf("r"));
+        console.log(hello.indexOf("？"));
+        console.log(hello.indexOf("j"));
+
+        var word = "\
+比如：我看书啦，我出门啦，我吃完饭啦，我到家啦，这些细碎的回复，在我这里都很动人，就好像对方在说我事情做好了，可以继续聊天了！\
+\
+这种有始有终不会烂尾的聊天，真的会让我很喜欢，我喜欢有回应的人，也觉得分享欲是要靠回应来延续的。\
+\
+今天天气很好，中午吃了什么，我刚才看见了一只超级好看的小狗，或者遇到了什么人发生了什么事，不是说这些事情很重要，只是你很重要，所以我想和你分享，我想你感受我的世界，也想感受你的全世界\
+\
+我可能跟你讲了一堆废话，让我开心的不是废话本身，而是我讲了一堆废话还是被你认真回复，得到事事有回应、件件有着落，这才是给我归属感的方式."
+console.log(word.indexOf("小狗"));
+
+var name = "Binfinity";
+//第二个参数代表从该位置开始向后查询
+console.log(name.indexOf("B",1));  //-1
+    </script>
+    
+</body>
+</html>

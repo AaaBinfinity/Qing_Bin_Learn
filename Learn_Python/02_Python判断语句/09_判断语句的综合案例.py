@@ -11,6 +11,7 @@
 print("Hi Player~")
 
 import random
+
 num = random.randint(1, 10)
 print("让我们一起猜数字吧~")
 guess1 = int(input("你猜的数字是:"))

@@ -12,10 +12,10 @@ if int(input("猜猜我想到的数字~")) == num:
 elif int(input("再试一次~")) == num:
     print("宝宝太棒啦~")
 # 如果再错误，再试最后一次
-elif int(input("再试最后一次3~")) == num:
+elif int(input("再试最后一次~")) == num:
     print("聪明宝宝真棒呀！")
 # 如果全部猜错，那么sorry啦~
-elif int(input("再试最后最后一次2~")) == num:
+elif int(input("再试最后最后一次~")) == num:
     print("√")
 else:
     print(f"sorry啦~我想的数字是{num}")

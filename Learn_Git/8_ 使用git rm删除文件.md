@@ -15,4 +15,3 @@ git rm <file>
 ```shell
 git rm --cached <file>
 ```
-

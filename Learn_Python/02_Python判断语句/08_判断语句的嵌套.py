@@ -56,5 +56,3 @@ if 30 > age >= 18:
         print("sorry")
 else:
     print("sorry,你不满足要求")
-
-print("Hello")

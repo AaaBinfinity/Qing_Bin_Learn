@@ -25,3 +25,4 @@ while flag:
         print("大了捏")
     elif num_guess < num:
         print("小了捏")
+# 2024.05.06

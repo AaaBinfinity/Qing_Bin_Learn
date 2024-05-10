@@ -1,5 +1,5 @@
 # 2024年5月9日18:35:14
-# print输入不换行
+# 如何让print输出不换行
 """
 print("Hello")
 print("World")

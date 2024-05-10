@@ -30,7 +30,8 @@ Qing  Bin
 i = 1
 while i <= 9:
     j = 1
+    print()
     while j <= i:
-        print(f"{j} * {i} = ", i * j, end='')
+        print(f"{j}*{i}=", i * j, end='')
         j += 1
     i = i + 1

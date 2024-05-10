@@ -32,6 +32,6 @@ while i <= 9:
     j = 1
     print()
     while j <= i:
-        print(f"{j}*{i}=", i * j, end='')
+        print(f"{j}*{i}={j*i}", end=" ")
         j += 1
     i = i + 1

@@ -33,3 +33,5 @@ while True:
 
 # 输出奖金列表
 print("奖金列表:", bonuses)
+
+# 你在搞什么奇葩文件名啊

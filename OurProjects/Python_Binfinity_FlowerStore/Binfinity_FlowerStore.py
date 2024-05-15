@@ -95,7 +95,7 @@ class FlowerShop:
     def display_flowers(self):
         # 遍历flowers列表，并打印每朵花的信息
         for flower in self.flowers:
-            print(f"Flower: {flower['name']}, Price: {flower['price']}, Quantity: {flower['quantity']}")
+            print(f"花朵: {flower['name']}, 单价: {flower['price']}, 现有库存: {flower['quantity']}")
 
 
 # 创建一个Shop实例
@@ -128,14 +128,19 @@ def admin_functions():
     choice = input("请选择要执行的操作：")
     if choice == '1':
         shop.display_flowers()
+        print("操作完成")
     elif choice == '2':
         shop.add_flower('Rose', 5.99, 100)
+        print("操作完成")
     elif choice == '3':
         shop.purchase_flower('Rose', 10)
+        print("操作完成")
     elif choice == '4':
         shop.update_flower('Rose', price=6.99, quantity=50)
+        print("操作完成")
     elif choice == '5':
         shop.delete_flower('Rose')
+        print("操作完成")
     else:
         print("无效的选择，请重新选择。")
 

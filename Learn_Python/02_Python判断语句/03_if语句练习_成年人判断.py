@@ -14,3 +14,16 @@ age = int(input("请输入你的年龄"))
 if age >= 18:
     print("您已成年，游玩需要补票10元")
 print("祝您游玩愉快")
+
+
+# 原始列表
+original_list = [1, 9, 8, 7, 6, 5, 13, 3, 2, 1]
+
+# 输出原列表
+print("原列表:", original_list)
+
+# 使用列表推导式创建一个只包含偶数的新列表
+even_list = [x for x in original_list if x % 2 == 0]
+
+# 输出新列表（只包含偶数）
+print("删除奇数后的列表:", even_list)

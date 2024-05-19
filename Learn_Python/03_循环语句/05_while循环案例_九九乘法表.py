@@ -1,5 +1,5 @@
 # 2024年5月9日18:35:14
-# print输入不换行
+# 如何让print输出不换行
 """
 print("Hello")
 print("World")
@@ -30,7 +30,8 @@ Qing  Bin
 i = 1
 while i <= 9:
     j = 1
+    print()
     while j <= i:
-        print(f"{j} * {i} = ", i * j, end='')
+        print(f"{j}*{i}={j*i}", end=" ")
         j += 1
     i = i + 1

@@ -87,7 +87,7 @@ Binfinity FlowerStore 目前通过命令行界面（CLI）与用户交互。我�
 
 1. **克隆仓库**
     ```bash
-    git clone https://github.com/yourusername/Binfinity-FlowerStore.git
+    git clone https://github.com/AaaBinfinity/Python_Binfinity_FlowerStore.git
     cd Binfinity-FlowerStore
     ```
 

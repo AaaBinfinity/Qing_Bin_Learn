@@ -20,8 +20,6 @@ elif int(input("再试最后最后一次~")) == num:
 else:
     print(f"sorry啦~我想的数字是{num}")
 
-
-
 # 史山代码
 
 num = 1

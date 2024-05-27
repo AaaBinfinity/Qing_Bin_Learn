@@ -35,3 +35,5 @@ if int(input()) != num:
         print("yes")
 else:
     print("yes")
+
+print("我叫乔治")

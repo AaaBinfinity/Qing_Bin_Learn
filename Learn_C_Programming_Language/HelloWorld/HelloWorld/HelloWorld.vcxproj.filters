@@ -18,5 +18,36 @@
     <ClCompile Include="HelloWorld.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\01_注释基本使用.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\02_注释扩展知识点.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\03_关键字.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\04_常量.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\05_实型常量细节补充.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\06_输出常量.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="07_输出常量的两个小扩展.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HelloWorld.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

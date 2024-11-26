@@ -1,4 +1,4 @@
-package D2数组的定义和静态初始化;
+
 
 public class Practice初始化 {
     public static void main(String[] args) {
